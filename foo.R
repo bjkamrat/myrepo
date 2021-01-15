@@ -16,3 +16,5 @@ summary(VADeaths)
 #' this chunk, so the resulting PNG has a decent name.
 #+ dotchart
 dotchart(VADeaths, main = "Death Rates in Virginia - 1940")
+
+#' What is a Cleveland dot plot? and how did you do it?
