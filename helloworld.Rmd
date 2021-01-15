@@ -2,7 +2,7 @@
 title: "Hello World Trial Run"
 author: "Brock Kamrath"
 date: "1/15/2021"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
