@@ -29,3 +29,5 @@ dotchart(VADeaths, main = "Death Rates in Virginia - 1940")
 ```
 
 ![](foo_files/figure-gfm/dotchart-1.png)<!-- -->
+
+What is a Cleveland dot plot? and how did you do it?
