@@ -1,8 +1,11 @@
 ---
 title: "BAE 565 Github Week Outline"
-auther: "Brock Kamrath"
 date: "01-15-2021"
-output: github_document
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+auther: Brock Kamrath
 ---
 
 I have worked through the happy git website and have read both the of the articles you suggested. From this work I have prepared a general outline for the github/version control week. Please note that this is just a general idea of what I am thinking. I have not yet prepared any material towards this goal or developed an excerise that would serve as homework, though I would want it to deal with forking and cloning a repo to Github then to a local computer, setting the upstream repo on a local computer to pull from, making a change on a local computer, pushing your change back to Github, and then submitting a pull request back to the upstream repo.
@@ -22,9 +25,9 @@ I have worked through the happy git website and have read both the of the articl
 
 # Work to be done prior to 1/28/21
 * Read sections 8-13 of Excuse Me, Do You Have a Moment to Talk About Version Control?
-* Complete Chapter 18
+* Complete Chapter 18 exce
 
-# 1/26/21
-* 0 - 20 min: dicussin of chapter 18 excericse and use of markdown files instead of .docx file
-* 20 - 60 min: Work through section 4 Daily Workflows
-* 60 - 75: Present and discuss excerise to be due the following Tuesday 2/2/21
+# 1/28/21: In Class work
+* 0 - 30 min: Discussin of chapter 18 excericse and use of markdown files instead of .docx file and general questions
+* 30 - 55 min: Work through section 4 Daily Workflows
+* 55 - 75: Present and discuss excerise to be due the following Tuesday 2/2/21

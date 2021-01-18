@@ -1,0 +1,163 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={BAE 565 Github Week Outline},
+  pdfborder={0 0 0},
+  breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-2}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\title{BAE 565 Github Week Outline}
+\author{}
+\date{\vspace{-2.5em}01-15-2021}
+
+\begin{document}
+\maketitle
+
+I have worked through the happy git website and have read both the of
+the articles you suggested. From this work I have prepared a general
+outline for the github/version control week. Please note that this is
+just a general idea of what I am thinking. I have not yet prepared any
+material towards this goal or developed an excerise that would serve as
+homework, though I would want it to deal with forking and cloning a repo
+to Github then to a local computer, setting the upstream repo on a local
+computer to pull from, making a change on a local computer, pushing your
+change back to Github, and then submitting a pull request back to the
+upstream repo.
+
+\hypertarget{work-to-be-done-prior-to-12621}{%
+\section{Work to be done prior to
+1/26/21}\label{work-to-be-done-prior-to-12621}}
+
+\begin{itemize}
+\tightlist
+\item
+  Read sections 1-4 of Excuse Me, Do You Have a Moment to Talk About
+  Version Control?
+\item
+  Read Our path to better science in less time using open data science
+  tools
+\item
+  Complete Section ``1. Installation'' on
+  \url{https://happygitwithr.com/}
+\end{itemize}
+
+\hypertarget{in-class-work}{%
+\section{1/26/21: In class work}\label{in-class-work}}
+
+\begin{itemize}
+\tightlist
+\item
+  0 - 20 min: discussion of article and installation quesitons
+\item
+  20 - 40 min: Work through section 2 "Connect Git, Github, and RStudio.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Do this together using slides to allow for quick troubleshooting
+  \end{itemize}
+\item
+  40 - 60 min: Work through section 3 ``Early GitHub Wins''
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Do this together using slides to allow for quick troubleshooting
+  \end{itemize}
+\item
+  60 -75 min: Discussion of Github so far/ start chapter 18 ``Test drive
+  in R Markdown''
+\end{itemize}
+
+\hypertarget{work-to-be-done-prior-to-12821}{%
+\section{Work to be done prior to
+1/28/21}\label{work-to-be-done-prior-to-12821}}
+
+\begin{itemize}
+\tightlist
+\item
+  Read sections 8-13 of Excuse Me, Do You Have a Moment to Talk About
+  Version Control?
+\item
+  Complete Chapter 18
+\end{itemize}
+
+\hypertarget{section}{%
+\section{1/26/21}\label{section}}
+
+\begin{itemize}
+\tightlist
+\item
+  0 - 20 min: dicussin of chapter 18 excericse and use of markdown files
+  instead of .docx file
+\item
+  20 - 60 min: Work through section 4 Daily Workflows
+\item
+  60 - 75: Present and discuss excerise to be due the following Tuesday
+  2/2/21
+\end{itemize}
+
+\end{document}
