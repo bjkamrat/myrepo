@@ -1,35 +1,67 @@
 ---
-title: "Github_Session1"
+title: 'Github: The beginning'
 author: "Brock Kamrath"
 date: "1/18/2021"
-output: slidy_presentation
+output:
+  slidy_presentation: default
+  powerpoint_presentation: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## R Markdown
+# Introduction {.bigger}
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Welcome to Version Control week!
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
-
-## Slide with Bullets
-
-- Bullet 1
-- Bullet 2
-- Bullet 3
-
-## Slide with R Output
-
-```{r cars, echo = TRUE}
-summary(cars)
+```{r logo}
+   knitr::include_graphics("pres_figs/github_logo2.png")
 ```
 
-## Slide with Plot
+# Today's Schedule
 
-```{r pressure}
-plot(pressure)
+* Discussion of readings
+* Important terms and concepts
+* Troubleshooting the installation of Git/Github/Rstudio
+* Work through two sections of happygitwithr.com
+  + Connecting Git, GitHub, and RStudio!
+  + Early Github Wins!
+
+Finish with Chapter 18, there will be some time to work on this at the end of the lecture.
+
+# Discussion
+You were asked to read
+
+* Sections 1-4 of Byran article (Excuse Me...)
+* Sewart Lowndes et al (Our path...)
+
+What were some of your intial takeaways from the readings?
+
+# Discussion
+1. What the difference between Git and Github?
+
+# Discussion
+2. 
+
+# Discussion
+3. In the *Our path...* article, the authors discuss the implementation of version control/reproducibility (via Github and RStudio) in their large OHI project. How do you see version control/reproducability being implemented in your research?
+
+# Version Control 
+Who does version control help?
+
+* Remember, this can be future you. 
+  + for example, I started my master's in 2016. We published an article for one of those research projects in 2020. One of the biggest headaches was trying to remember why and how I did things 3 years ago
+
+# Terminology
+*“Never make fun of someone if they mispronounce a word. It means they learned it by reading” - Anonymous*
+
+* repository - 
+```{r repo}
+
 ```
+
+* commit
+* dif
+
 
