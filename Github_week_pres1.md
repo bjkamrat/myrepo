@@ -8,17 +8,13 @@ output:
   powerpoint_presentation: default
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+
 
 # Introduction {.bigger}
 
 Welcome to Version Control week!
 
-```{r logo}
-knitr::include_graphics("pres_figs/github_logo2.png")
-```
+<img src="pres_figs/github_logo2.png" width="768" />
 
 * In our lectures and excercises on version control with GitHub, we will largely utilize 
   + *Happy Git and GitHub for the useR* by Jennifer Bryan @ happygitwithr.com
