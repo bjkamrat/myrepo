@@ -16,14 +16,16 @@ knitr::opts_chunk$set(echo = FALSE)
 Welcome to Version Control week!
 
 ```{r logo}
-   knitr::include_graphics("pres_figs/github_logo2.png")
+knitr::include_graphics("pres_figs/github_logo2.png")
 ```
 
-# Today's Schedule
+In our lectures and excercises on version control with GitHub, we will largely utilize the Happy Git and GitHub for the useR by Jennifer Bryan @ happygitwithr.com
+
+# Today's Schedule {.bigger}
 
 * Discussion of readings
-* Important terms and concepts
 * Troubleshooting the installation of Git/Github/Rstudio
+* Important terms and concepts
 * Work through two sections of happygitwithr.com
   + Connecting Git, GitHub, and RStudio!
   + Early Github Wins!
@@ -34,34 +36,69 @@ Finish with Chapter 18, there will be some time to work on this at the end of th
 You were asked to read
 
 * Sections 1-4 of Byran article (Excuse Me...)
-* Sewart Lowndes et al (Our path...)
+* Stewart Lowndes et al (Our path...)
 
-What were some of your intial takeaways from the readings?
+*What were your takeaways from the Bryan article?
 
-# Discussion
+*What were your takeaways from the Stewart Lowndes article?
+
+# Discussion Questions
+
+**1. What the difference between Git and Github?**
+
+# Discussion Questions
+
 1. What the difference between Git and Github?
 
-# Discussion
-2. 
+**2. In the *Our path...* article, the authors discuss the implementation of version control/reproducibility (via Github and RStudio) in the global OHI assessment. How do you see version control/reproducability being implemented in your research?**
 
-# Discussion
-3. In the *Our path...* article, the authors discuss the implementation of version control/reproducibility (via Github and RStudio) in their large OHI project. How do you see version control/reproducability being implemented in your research?
+# Discussion Questions
 
-# Version Control 
-Who does version control help?
+1. What the difference between Git and Github?
 
-* Remember, this can be future you. 
-  + for example, I started my master's in 2016. We published an article for one of those research projects in 2020. One of the biggest headaches was trying to remember why and how I did things 3 years ago
+2. In the *Our path...* article, the authors discuss the implementation of version control/reproducibility (via Github and RStudio) in the global OHI assessment. How do you see version control/reproducability being implemented in your research?
 
-# Terminology
+**3. What do you think will be the largest obstacle to utilizing version control with GitHub?**
+
+# Happy Git and GtHub for the useR
+
+* Check on *Section 1: Installation*
+* You all should have
+  + A GitHub account with an acceptable user name
+  + Upgraded your RStudio to 4.0.3
+  + Installed and introduced yourself to Git
+
+
+# The Shell
+
+* The shell is a program that allows you to run programs on your computer
+  + Similar to “terminal”, “command line”, and “console"
+
+You can launch a shell from RStudio. This is often handy, because RStudio makes every effort to put you in a sane working directory, i.e. in the current project.
+
+There are two ways:
+
+  * *Tools > Terminal* launches a shell within RStudio, graphically and process-wise. I believe this is usually what you want.
+  * *Tools > Shell ...* launches a shell external to RStudio.
+
+![Terminal pathway](pres_figs/terminal.png)
+
+# Basic Shell Commands
+
+* [`pwd`](https://en.wikipedia.org/wiki/Pwd) (**p**rint **w**orking **d**irectory). 
+  + Shows directory or "folder" you are currently operating in. This is not necessarily the same as the `R` working directory you get from `getwd()`.
+* [`ls`](https://en.wikipedia.org/wiki/Ls) (**l**i**s**t files). 
+  + Shows the files in the current working directory. This is equivalent to looking at the files in your Finder/Explorer/File Manager. Use `ls -a` to also list hidden files, such as `.Rhistory` and `.git`.
+* [`cd`](https://en.wikipedia.org/wiki/Cd_(command)) (**c**hange **d**irectory). 
+  + Allows you to navigate through your directories by changing the shell's working directory. You can navigate like so:
+  - go to subdirectory `foo` of current working directory: `cd foo`
+  - go to parent of current working directory: `cd ..`
+  - go to your "home" directory: simply `cd`
+  - go to directory using absolute path, works regardless of your current working directory: `cd /home/my_username/Desktop`. Windows uses a slightly different syntax with the slashes between the folder names reversed, `\`, e.g. `cd C:\Users\MY_USERNAME\Desktop`.
+
+* Use arrow-up and arrow-down to repeat previous commands. Or search for previous commands with `CTRL` + `r`.
+
+
+
+
 *“Never make fun of someone if they mispronounce a word. It means they learned it by reading” - Anonymous*
-
-* repository - 
-```{r repo}
-
-```
-
-* commit
-* dif
-
-
