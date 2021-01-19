@@ -61,14 +61,13 @@ You were asked to read
 
 # Happy Git and GitHub for the useR
 
-* Check on *Section 1: Installation*
 * You all should have
   + A GitHub account with an acceptable user name
   + Upgraded your RStudio to 4.0.3
-  + Installed and introduced yourself to Git
+  + Installed and introduced yourself to Git (i.e completed *Section 1: Installation*)
 
 
-# The Shell 
+# To start today's lecture, I want to give a brief overview of the shell
 
 * The [`shell`](https://happygitwithr.com/shell.html) is a program that allows you to run programs on your computer
   + Similar to “terminal”, “command line”, and “console"
@@ -97,7 +96,7 @@ You can launch a shell from RStudio. This is often handy, because RStudio makes 
 
 # Chapter 9: Connect to GitHub
 
-Objective: Make sure that you can all pull from and push to GitHub on your local computer (remote)
+Objective: Make sure that you can all pull from and push to GitHub on your local computer
 
 * Order of operation
   1. Connect to GitHub
@@ -109,7 +108,7 @@ Objective: Make sure that you can all pull from and push to GitHub on your local
 
 # Connect to GitHub
 
-*Start by going to <https://github.com> and logging in
+* Start by going to <https://github.com> and logging in
 
 ![Homepage should look like this](pres_figs/homepage.png)
 
@@ -309,7 +308,7 @@ rm -rf myrepo/
 
 Scroll down, click on "delete repository," and do as it asks.
 
-# Now, lets use GitHub and RStudio together
+# Now, lets use GitHub and RStudio together (Chapter 15)
 
 * This workflow will be similar to the previous section
 * More like what you will be doing in the future by using Git within RStudio
@@ -318,8 +317,15 @@ Scroll down, click on "delete repository," and do as it asks.
 
 # Start by making a repo in GitHub
 * This will be done using the same exact method as before
+* Remember
+  + Repository name: `myrepo` (or whatever you wish, we'll delete this soon anyway).
+  + Description: "testing my setup" (or whatever, but some text is good for the README).
+  + Public.
+  + YES Initialize this repository with a README.
+* For everything else, just accept the default.
+* Click big green button "Create repository."
 
-# Chapter 15: New RStudio Project via git clone
+# New RStudio Project via git clone
 
 ::::::::::{.columns}
 :::{.column}
@@ -417,18 +423,24 @@ So, Back in RStudio
 2. Click the blue Pull button.
   + Look at README.md again. You should now see the new line there.
 
-# The end
+# For the future
 
 Now just ... repeat. Do work somewhere. Commit it. Push it or pull it\* depending on where you did it, but get local and remote "synced up". Repeat.
 
 \* Note that in general (and especially in future when collaborating with other developers) you will usually need to pull changes from the remote (GitHub) before pushing the local changes you have made. For this reason, it's a good idea to try and get into the habit of pulling before you attempt to push.
 
-# There is some general 
+# Coursework for this week
 
 With the rest of the class period, I would like you to begin working through chapters 16, 17, and 18 from happygitwithr.com
 
-For Thursday, you need to
-* complete chapters 16, 17, and 18 
+For Thursday (2/4/21), you need to
+
+* Complete chapters 16, 17, and 18 
 * Finish reading Byran article (Excuse Me...)
 
-On Thursday, we will go over any questions, then get more into GitHub basics.
+On Thursday, we will
+
+* Go over any questions
+* Get more into GitHub basics
+* Work through some additional material
+* Then begin an exercise due next Tuesday (2/9/21)
