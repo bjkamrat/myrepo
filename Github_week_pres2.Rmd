@@ -1,5 +1,5 @@
 ---
-title: 'Github: The beginning'
+title: 'Github: The understanding'
 author: "Brock Kamrath"
 date: "1/18/2021"
 output:
@@ -19,9 +19,10 @@ Welcome to Version Control week!
 knitr::include_graphics("pres_figs/github_logo2.png")
 ```
 
-* In our lectures and excercises on version control with GitHub, we will largely utilize 
+In our lectures and excercises on version control with GitHub, we will largely utilize 
   + *Happy Git and GitHub for the useR* by Jennifer Bryan @ happygitwithr.com
   + *Introduction to Github* by Lise Montefiore for REEU P4 program
+
 
 # Today's Schedule {.bigger}
 
@@ -70,43 +71,16 @@ You were asked to read
   + Upgraded your RStudio to 4.0.3
   + Installed and introduced yourself to Git
 
-# How does it work?
+# Git breakdown
+* repository (or repo) - your project folder (hosted on GitHub)
+* commit - a snapshot of your repo
+* branch - a movable label that points to a commit
+* merge - combining two branches
+* remote - a computer with the repository on it
+* clone - move the repo from the remote for the 1st time
+* push - send commits to a remote
+* pull - get commits from a remote
+* pull request - asking someone to pull your commits into their repo
 
-
-* [`Repo`](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repositories)
-
-# The Shell 
-
-* The [`shell`](https://happygitwithr.com/shell.html) is a program that allows you to run programs on your computer
-  + Similar to “terminal”, “command line”, and “console"
-
-You can launch a shell from RStudio. This is often handy, because RStudio makes every effort to put you in a sane working directory, i.e. in the current project.
-
-  * *Tools > Terminal* launches a shell within RStudio, graphically and process-wise. 
-    + This is usually what you want.
-
-
-![](pres_figs/terminal.png)
-
-# Basic Shell Commands
-
-* [`pwd`](https://en.wikipedia.org/wiki/Pwd) (**p**rint **w**orking **d**irectory). 
-  + Shows directory or "folder" you are currently operating in.
-* [`ls`](https://en.wikipedia.org/wiki/Ls) (**l**i**s**t files). 
-  + Shows the files in the current working directory. This is equivalent to looking at the files in your Finder/Explorer/File Manager.
-* [`cd`](https://en.wikipedia.org/wiki/Cd_(command)) (**c**hange **d**irectory). 
-  + Allows you to navigate through your directories by changing the shell's working directory. You can navigate like so:
-  - go to subdirectory `foo` of current working directory: `cd foo`
-  - go to parent of current working directory: `cd ..`
-  - go to your "home" directory: simply `cd`
-  - go to directory using absolute path, works regardless of your current working directory: `cd /home/my_username/Desktop`. Windows uses a slightly different syntax with the slashes between the folder names reversed, `\`, e.g. `cd C:\Users\MY_USERNAME\Desktop`.
-
-* Use arrow-up and arrow-down to repeat previous commands. Or search for previous commands with `CTRL` + `r`.
-
-
-
-*“Never make fun of someone if they mispronounce a word. It means they learned it by reading” - Anonymous*
-
-# Ch 9 Connect to GitHub
 
 
