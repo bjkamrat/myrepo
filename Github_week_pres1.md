@@ -95,7 +95,7 @@ You can launch a shell from RStudio. This is often handy, because RStudio makes 
 
 * Use arrow-up and arrow-down to repeat previous commands. Or search for previous commands with `CTRL` + `r`.
 
-# Ch 9 Connect to GitHub
+# Chapter 9: Connect to GitHub
 
 Objective: Make sure that you can all pull from and push to GitHub on your local computer (remote)
 
@@ -319,7 +319,7 @@ Scroll down, click on "delete repository," and do as it asks.
 # Start by making a repo in GitHub
 * This will be done using the same exact method as before
 
-# New RStudio Project via git clone
+# Chapter 15: New RStudio Project via git clone
 
 ::::::::::{.columns}
 :::{.column}
