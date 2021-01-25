@@ -3,9 +3,10 @@ title: 'Github: The beginning'
 author: "Brock Kamrath"
 date: "1/18/2021"
 output:
-  slidy_presentation: 
+  slidy_presentation:
     keep_md: yes
   powerpoint_presentation: default
+  beamer_presentation: default
 ---
 
 ```{r setup, include=FALSE}
