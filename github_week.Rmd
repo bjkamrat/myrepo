@@ -31,5 +31,5 @@ I have worked through the happy git website and have read both the of the articl
 # 2/4/21: In Class work
 * 0 - 15 min: Article discussion with questions focusing on terminology
 * 15 - 35 min: Work through Chapter 18: Test drive R Markdown 
-* 35 - 50 min: use of markdown files instead of .docx file and general questions
-* 50 - 75 min: Present and discuss excerise to be due the following Tuesday 2/2/21
+* 35 - 50 min: Workflow lecture markdown files instead of .docx file and general questions
+* 50 - 75 min: Present and discuss excerise to be due the following Tuesday 2/9/21
