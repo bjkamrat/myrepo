@@ -26,61 +26,26 @@ In our lectures and excercises on version control with GitHub, we will largely u
 
 # Today's Schedule {.bigger}
 
-* Discussion of readings
-* Troubleshooting the installation of Git/Github/Rstudio
-* Important terms and concepts
-* Work through two sections of happygitwithr.com
-  + Connecting Git, GitHub, and RStudio!
-  + Early Github Wins!
-
-Finish with Chapter 18, there will be some time to work on this at the end of the lecture.
-
-# Discussion
-You were asked to read
-
-* Sections 1-4 of Byran article (Excuse Me...)
-* Stewart Lowndes et al (Our path...)
-
-*What were your takeaways from the Bryan article?
-
-*What were your takeaways from the Stewart Lowndes article?
+* Article discussion
+* Work through Chapter 18: Test drive R Markdown
+* Discussion on Workflow (markdown files instead of .docx files) and general questions
+* Present and discuss excerise to be due the following Tuesday 2/9/21
 
 # Discussion Questions
 
-**1. What the difference between Git and Github?**
+**1. What have you found to be the most challenging aspect of GitHub and Version Control?**
 
 # Discussion Questions
 
-1. What the difference between Git and Github?
+1. What have you found to be the most challenging aspect of GitHub and Version Control?
 
-**2. In the *Our path...* article, the authors discuss the implementation of version control/reproducibility (via Github and RStudio) in the global OHI assessment. How do you see version control/reproducability being implemented in your research?**
+**2. What are your biggest concerns about using GitHub and RMarkdown for homework and future collaboration?**
 
-# Discussion Questions
+# Chapter 18: Test drive in R Markdown
 
-1. What the difference between Git and Github?
+* If you are anything like me, when you write a report you immediately open MS Word.
+* However, version control with GitHub and RStudio is suited for using R and RMarkdown files
 
-2. In the *Our path...* article, the authors discuss the implementation of version control/reproducibility (via Github and RStudio) in the global OHI assessment. How do you see version control/reproducability being implemented in your research?
-
-**3. What do you think will be the largest obstacle to utilizing version control with GitHub?**
-
-# Happy Git and GitHub for the useR
-
-* Check on *Section 1: Installation*
-* You all should have
-  + A GitHub account with an acceptable user name
-  + Upgraded your RStudio to 4.0.3
-  + Installed and introduced yourself to Git
-
-# Git breakdown
-* repository (or repo) - your project folder (hosted on GitHub)
-* commit - a snapshot of your repo
-* branch - a movable label that points to a commit
-* merge - combining two branches
-* remote - a computer with the repository on it
-* clone - move the repo from the remote for the 1st time
-* push - send commits to a remote
-* pull - get commits from a remote
-* pull request - asking someone to pull your commits into their repo
 
 
 
