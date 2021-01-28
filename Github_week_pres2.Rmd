@@ -3,8 +3,9 @@ title: 'Github: The understanding'
 author: "Brock Kamrath"
 date: "1/18/2021"
 output:
-  slidy_presentation: default
   powerpoint_presentation: default
+  ioslides_presentation: default
+  slidy_presentation: default
 ---
 
 ```{r setup, include=FALSE}
@@ -45,6 +46,22 @@ In our lectures and excercises on version control with GitHub, we will largely u
 
 * If you are anything like me, when you write a report you immediately open MS Word.
 * However, version control with GitHub and RStudio is suited for using R and RMarkdown files
+* I will run through CH18 to show you how it works
+
+Here is the official [R Markdown documentation](http://rmarkdown.rstudio.com)
+Here is the [R Markdown cheatsheet](https://rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+
+# What can you do in R Markdown
+
+* Presentations
+* Handouts
+* Interactive reports
+* Books
+* Blogs
+* Websites
+* Correctly-formatted journal articles
+  - With formulas
+  $$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
 
 
 
