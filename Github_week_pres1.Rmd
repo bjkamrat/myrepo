@@ -1,11 +1,11 @@
 ---
 title: 'Github: The beginning'
 author: "Brock Kamrath"
-date: "1/18/2021"
+date: "`r Sys.Date()`"
 output:
+  powerpoint_presentation: default
   slidy_presentation:
     keep_md: yes
-  powerpoint_presentation: default
   beamer_presentation: default
 ---
 
@@ -17,9 +17,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Welcome to Version Control week!
 
-```{r logo}
-knitr::include_graphics("pres_figs/github_logo2.png")
-```
+![](pres_figs/github_logo2.png)
 
 * In our lectures and excercises on version control with GitHub, we will largely utilize:
   + *Happy Git and GitHub for the useR* by Jennifer Bryan @ happygitwithr.com
@@ -40,9 +38,9 @@ You were asked to read
 * Sections 1-4 of Byran article (Excuse Me...)
 * Stewart Lowndes et al (Our path...)
 
-*What were your takeaways from the Bryan article?
+What were your takeaways from the Bryan article?
 
-*What were your takeaways from the Stewart Lowndes article?
+What were your takeaways from the Stewart Lowndes article?
 
 # Discussion Questions
 
@@ -255,7 +253,7 @@ Do work somewhere. Commit it. Push it or pull it\* depending on where you did it
 
 ![](https://media.giphy.com/media/ccRMvuh3PeuSGgOWVx/giphy.gif)
 
-# Before moving on, lets discuss some of the Git methodology/terminology
+# Lets discuss some of the Git methodology/terminology
 
 * Git allows you to take snapshots of all the files in a folder
  * This folder is your *repository* or *repo*
